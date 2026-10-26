@@ -1,0 +1,51 @@
+.justify-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.padding {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.size-17 {
+    font-size: 17px;
+}
+
+.remove_dots {
+    list-style-type: none;
+}
+
+.styled_button {
+    height: 45px;
+    width:200px ;
+    border-radius: 50px;
+    border: none;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+
+.styled_button:hover {
+    transform: scale(1.05);
+}
+
+.black_button {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #121212;
+    border: 1px solid #b3b3b3;
+    border-radius: 20px;
+    color: #b3b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    font-size: 14px;
+}
